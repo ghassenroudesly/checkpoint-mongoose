@@ -6,12 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "backend": "nodemon server",
-    "frontend": "cd checkpoint-mongooose && npm start"
+    "frontend": "cd client && npm start",
+    "dev": "concurrently \"npm run frontend \" \"npm run backend\""
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "client": "^0.0.1",
     "express": "^4.17.2",
     "mongoose": "^6.1.4"
   },

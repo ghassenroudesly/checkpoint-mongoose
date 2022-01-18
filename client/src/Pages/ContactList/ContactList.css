@@ -1,0 +1,12 @@
+.contactContainer {
+	margin: auto;
+	padding: 5%;
+	border: 2px solid black;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #fdf5df;
+	width: 85%;
+}

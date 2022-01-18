@@ -1,0 +1,31 @@
+.formContainer {
+	margin: auto;
+	padding: 5%;
+	border: 2px solid black;
+	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #fdf5df;
+	width: 50%;
+}
+
+.addBtn {
+	border: none;
+	background: none;
+	margin-top: 15px;
+}
+
+.addImg {
+	width: 80px;
+}
+
+.editBtn {
+	border: none;
+	background: none;
+	margin-top: 15px;
+}
+
+.editImg {
+	width: 80px;
+}
